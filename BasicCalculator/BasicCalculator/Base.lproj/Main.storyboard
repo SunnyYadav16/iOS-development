@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BasicCalculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Basic Calculator" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cc9-RA-5z4">
+                                <rect key="frame" x="94" y="130" width="205" height="32.333333333333343"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mUc-5z-gZK">
+                                <rect key="frame" x="160.66666666666666" y="551.33333333333337" width="72" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Divide"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Operations" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dRA-Jl-Fe4">
+                                <rect key="frame" x="154.66666666666666" y="365.33333333333331" width="84" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="28i-D1-cl2">
+                                <rect key="frame" x="169" y="401.33333333333331" width="55" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Add"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S9j-hh-gQF">
+                                <rect key="frame" x="151.66666666666666" y="451.33333333333331" width="90" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Subtract"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i13-ch-LdB">
+                                <rect key="frame" x="154.66666666666666" y="501.33333333333326" width="84" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Multiply"/>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ury-vU-A5M">
+                                <rect key="frame" x="94" y="242.33333333333337" width="205" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Second Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BXY-N3-FAP">
+                                <rect key="frame" x="94" y="291" width="205" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Result" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ui0-sK-uwV">
+                                <rect key="frame" x="168" y="611.33333333333337" width="57.333333333333343" height="23"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="History: None" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HEJ-5T-He8">
+                                <rect key="frame" x="144" y="182.33333333333334" width="105" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Additional Functions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e4R-Un-ZDE">
+                                <rect key="frame" x="119" y="659.33333333333337" width="155" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XJG-e2-XeD">
+                                <rect key="frame" x="164.66666666666666" y="700.33333333333337" width="64" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Clear"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mA6-GT-lQz">
+                                <rect key="frame" x="125.66666666666669" y="750.33333333333337" width="142" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Compute Again"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="i13-ch-LdB" firstAttribute="top" secondItem="S9j-hh-gQF" secondAttribute="bottom" constant="15" id="4T7-Qk-W5H"/>
+                            <constraint firstItem="mA6-GT-lQz" firstAttribute="top" secondItem="XJG-e2-XeD" secondAttribute="bottom" constant="15" id="BfE-cc-YWp"/>
+                            <constraint firstItem="HEJ-5T-He8" firstAttribute="top" secondItem="cc9-RA-5z4" secondAttribute="bottom" constant="20" id="CBN-Tr-UIp"/>
+                            <constraint firstItem="mUc-5z-gZK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ey8-xj-E70"/>
+                            <constraint firstItem="BXY-N3-FAP" firstAttribute="trailing" secondItem="Ury-vU-A5M" secondAttribute="trailing" id="HHv-qp-dhI"/>
+                            <constraint firstItem="e4R-Un-ZDE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Jkp-RB-hw8"/>
+                            <constraint firstItem="S9j-hh-gQF" firstAttribute="top" secondItem="28i-D1-cl2" secondAttribute="bottom" constant="15" id="Jso-3m-LAV"/>
+                            <constraint firstItem="Ui0-sK-uwV" firstAttribute="top" secondItem="mUc-5z-gZK" secondAttribute="bottom" constant="25" id="Nbh-pk-cIR"/>
+                            <constraint firstItem="Ury-vU-A5M" firstAttribute="top" secondItem="cc9-RA-5z4" secondAttribute="bottom" constant="80" id="Or6-gL-N4q"/>
+                            <constraint firstItem="BXY-N3-FAP" firstAttribute="leading" secondItem="Ury-vU-A5M" secondAttribute="leading" id="ShX-tB-Bzv"/>
+                            <constraint firstItem="Ui0-sK-uwV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SxY-28-AN9"/>
+                            <constraint firstItem="HEJ-5T-He8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TC6-sD-o0k"/>
+                            <constraint firstItem="i13-ch-LdB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TPu-rL-28o"/>
+                            <constraint firstItem="XJG-e2-XeD" firstAttribute="top" secondItem="e4R-Un-ZDE" secondAttribute="bottom" constant="20" id="TS4-zf-16L"/>
+                            <constraint firstItem="S9j-hh-gQF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VIB-XD-gDc"/>
+                            <constraint firstItem="cc9-RA-5z4" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="130" id="WMT-Ov-bbN"/>
+                            <constraint firstItem="dRA-Jl-Fe4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aJN-pA-B5I"/>
+                            <constraint firstItem="dRA-Jl-Fe4" firstAttribute="top" secondItem="BXY-N3-FAP" secondAttribute="bottom" constant="40.333333333333314" id="bDf-GK-LJm"/>
+                            <constraint firstItem="mA6-GT-lQz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="crP-JT-cY1"/>
+                            <constraint firstItem="Ury-vU-A5M" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="haW-2c-pYl"/>
+                            <constraint firstItem="28i-D1-cl2" firstAttribute="top" secondItem="dRA-Jl-Fe4" secondAttribute="bottom" constant="15" id="mKa-CI-8Qk"/>
+                            <constraint firstItem="XJG-e2-XeD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nMB-mh-xCg"/>
+                            <constraint firstItem="cc9-RA-5z4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pbX-bb-LgY"/>
+                            <constraint firstItem="BXY-N3-FAP" firstAttribute="trailing" secondItem="cc9-RA-5z4" secondAttribute="trailing" id="qmb-0v-AxF"/>
+                            <constraint firstItem="e4R-Un-ZDE" firstAttribute="top" secondItem="Ui0-sK-uwV" secondAttribute="bottom" constant="25" id="u1r-GO-Wlf"/>
+                            <constraint firstItem="28i-D1-cl2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uBP-rY-4tG"/>
+                            <constraint firstItem="mUc-5z-gZK" firstAttribute="top" secondItem="i13-ch-LdB" secondAttribute="bottom" constant="15" id="vPK-Bb-VR6"/>
+                            <constraint firstItem="BXY-N3-FAP" firstAttribute="top" secondItem="Ury-vU-A5M" secondAttribute="bottom" constant="14.666666666666629" id="zuY-iI-QUR"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="addButton" destination="28i-D1-cl2" id="WVw-FB-kyZ"/>
+                        <outlet property="clearButton" destination="XJG-e2-XeD" id="YtU-dB-QIW"/>
+                        <outlet property="divideButton" destination="mUc-5z-gZK" id="OMR-XD-vrm"/>
+                        <outlet property="firstNumberTextField" destination="Ury-vU-A5M" id="8rz-OL-Phk"/>
+                        <outlet property="historyLabel" destination="HEJ-5T-He8" id="izc-xa-71Z"/>
+                        <outlet property="multiplyButton" destination="i13-ch-LdB" id="S6F-6C-9uP"/>
+                        <outlet property="reComputeButton" destination="mA6-GT-lQz" id="0rL-JI-Rrd"/>
+                        <outlet property="resultLabel" destination="Ui0-sK-uwV" id="Qg6-my-Gj8"/>
+                        <outlet property="secondNumberTextField" destination="BXY-N3-FAP" id="wzW-zb-hMA"/>
+                        <outlet property="subtractButton" destination="S9j-hh-gQF" id="N28-p5-HKK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139.69465648854961" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
