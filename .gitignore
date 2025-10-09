@@ -1,0 +1,50 @@
+## User settings
+xcuserdata/
+
+# Swift Playground ignores
+*.xcuserstate
+*.xctimeline
+*.xcworkspace/
+*.playgroundbook
+
+*.playground/xcuserdata/
+*.playground/playground.xcworkspace/
+
+## Obj-C/Swift specific
+*.hmap
+
+## App packaging
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+.build/
+.swiftpm/
+# Packages/
+# Package.pins
+# Package.resolved
+
+# CocoaPods
+# Pods/
+
+# Carthage
+Carthage/Build/
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Xcode cache
+DerivedData/
+
+# macOS system files
+.DS_Store
+
+*.zip
