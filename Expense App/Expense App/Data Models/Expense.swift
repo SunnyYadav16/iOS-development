@@ -6,16 +6,19 @@
 //
 
 import Foundation
+import UIKit
 
 struct Expense{
     var title: String?
     var amount: Double?
     var type: String?
+    var image: UIImage?
     
-    init(title: String? = nil, amount: Double? = nil, type: String? = nil) {
+    init(title: String? = nil, amount: Double? = nil, type: String? = nil, image: UIImage) {
         self.title = title
         self.amount = amount
         self.type = type
+        self.image = image
     }
     
 }

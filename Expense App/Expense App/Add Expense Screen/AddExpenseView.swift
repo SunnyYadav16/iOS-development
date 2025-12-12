@@ -12,7 +12,8 @@ class AddExpenseView: UIView {
     var textFieldTitle: UITextField!
     var textFieldAmount: UITextField!
     var labelType: UILabel!
-    var pickerType: UIPickerView!
+    var buttonSelectType: UIButton!
+    var buttonTakePhoto: UIButton!
     var buttonAdd: UIButton!
 
     override init(frame: CGRect) {
@@ -21,8 +22,8 @@ class AddExpenseView: UIView {
         
         setuptextFieldTitle()
         setuptextFieldAmount()
-        setuplabelType()
-        setuppickerType()
+        setupbuttonSelectType()
+        setupbuttonTakePhoto()
         setupbuttonAdd()
         
         initConstraints()
@@ -42,19 +43,24 @@ class AddExpenseView: UIView {
         self.addSubview(textFieldAmount)
     }
     
-    func setuplabelType(){
-        labelType = UILabel()
-        labelType.textColor = .systemGray
-        labelType.text = "Select the type of expense:"
-        labelType.textAlignment = .center
-        labelType.translatesAutoresizingMaskIntoConstraints = false
-        self.addSubview(labelType)
+    func setupbuttonSelectType(){
+        buttonSelectType = UIButton(type: .system)
+        buttonSelectType.setTitle("Select the type of expense:", for: .normal)
+        buttonSelectType.showsMenuAsPrimaryAction = true
+        buttonSelectType.translatesAutoresizingMaskIntoConstraints = false
+        self.addSubview(buttonSelectType)
     }
     
-    func setuppickerType(){
-        pickerType = UIPickerView()
-        pickerType.translatesAutoresizingMaskIntoConstraints = false
-        self.addSubview(pickerType)
+    func setupbuttonTakePhoto(){
+        buttonTakePhoto = UIButton(type: .system)
+        buttonTakePhoto.setTitle("", for: .normal)
+        buttonTakePhoto.setImage(UIImage(systemName: "camera.fill"), for: .normal)
+        buttonTakePhoto.showsMenuAsPrimaryAction = true
+        buttonTakePhoto.contentHorizontalAlignment = .fill
+        buttonTakePhoto.contentVerticalAlignment = .fill
+        buttonTakePhoto.imageView?.contentMode = .scaleAspectFit
+        buttonTakePhoto.translatesAutoresizingMaskIntoConstraints = false
+        self.addSubview(buttonTakePhoto)
     }
     
     func setupbuttonAdd(){
@@ -71,14 +77,16 @@ class AddExpenseView: UIView {
             
             textFieldAmount.topAnchor.constraint(equalTo: textFieldTitle.bottomAnchor, constant: 16),
             textFieldAmount.centerXAnchor.constraint(equalTo: self.safeAreaLayoutGuide.centerXAnchor),
+
+            buttonSelectType.topAnchor.constraint(equalTo: textFieldAmount.bottomAnchor, constant: 16),
+            buttonSelectType.centerXAnchor.constraint(equalTo: self.safeAreaLayoutGuide.centerXAnchor),
             
-            labelType.topAnchor.constraint(equalTo: textFieldAmount.bottomAnchor, constant: 16),
-            labelType.centerXAnchor.constraint(equalTo: self.safeAreaLayoutGuide.centerXAnchor),
+            buttonTakePhoto.topAnchor.constraint(equalTo: buttonSelectType.bottomAnchor, constant: 16),
+            buttonTakePhoto.centerXAnchor.constraint(equalTo: self.safeAreaLayoutGuide.centerXAnchor),
+            buttonTakePhoto.widthAnchor.constraint(equalToConstant: 100),
+            buttonTakePhoto.heightAnchor.constraint(equalToConstant: 100),
             
-            pickerType.topAnchor.constraint(equalTo: labelType.bottomAnchor, constant: 8),
-            pickerType.centerXAnchor.constraint(equalTo: self.safeAreaLayoutGuide.centerXAnchor),
-            
-            buttonAdd.topAnchor.constraint(equalTo: pickerType.bottomAnchor, constant: 16),
+            buttonAdd.topAnchor.constraint(equalTo: buttonTakePhoto.bottomAnchor, constant: 16),
             buttonAdd.centerXAnchor.constraint(equalTo: self.safeAreaLayoutGuide.centerXAnchor),
         ])
     }

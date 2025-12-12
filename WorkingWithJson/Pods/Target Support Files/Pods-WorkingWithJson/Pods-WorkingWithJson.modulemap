@@ -1,0 +1,6 @@
+framework module Pods_WorkingWithJson {
+  umbrella header "Pods-WorkingWithJson-umbrella.h"
+
+  export *
+  module * { export * }
+}

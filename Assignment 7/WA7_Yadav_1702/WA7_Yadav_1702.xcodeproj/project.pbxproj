@@ -1,0 +1,735 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16D2988814D7732B6FC5CE59 /* Pods_WA7_Yadav_1702_WA7_Yadav_1702UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F822A6320595EE60884D5D /* Pods_WA7_Yadav_1702_WA7_Yadav_1702UITests.framework */; };
+		1AC845FE94446C7A3217A551 /* Pods_WA7_Yadav_1702Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94AF83C4A46FB3E5E34BFF55 /* Pods_WA7_Yadav_1702Tests.framework */; };
+		BC86C839EB978F1280D77CB4 /* Pods_WA7_Yadav_1702.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CAEE66AD77587EA4FD42F43 /* Pods_WA7_Yadav_1702.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29D075302EB26AD400B88287 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29D075112EB26AD100B88287 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29D075182EB26AD100B88287;
+			remoteInfo = WA7_Yadav_1702;
+		};
+		29D0753A2EB26AD400B88287 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29D075112EB26AD100B88287 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29D075182EB26AD100B88287;
+			remoteInfo = WA7_Yadav_1702;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A198FB76E7A72994579AE61 /* Pods-WA7_Yadav_1702-WA7_Yadav_1702UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WA7_Yadav_1702-WA7_Yadav_1702UITests.release.xcconfig"; path = "Target Support Files/Pods-WA7_Yadav_1702-WA7_Yadav_1702UITests/Pods-WA7_Yadav_1702-WA7_Yadav_1702UITests.release.xcconfig"; sourceTree = "<group>"; };
+		0CAEE66AD77587EA4FD42F43 /* Pods_WA7_Yadav_1702.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WA7_Yadav_1702.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18863921350E8A16AEE2520F /* Pods-WA7_Yadav_1702-WA7_Yadav_1702UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WA7_Yadav_1702-WA7_Yadav_1702UITests.debug.xcconfig"; path = "Target Support Files/Pods-WA7_Yadav_1702-WA7_Yadav_1702UITests/Pods-WA7_Yadav_1702-WA7_Yadav_1702UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		29D075192EB26AD100B88287 /* WA7_Yadav_1702.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WA7_Yadav_1702.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29D0752F2EB26AD400B88287 /* WA7_Yadav_1702Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WA7_Yadav_1702Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29D075392EB26AD400B88287 /* WA7_Yadav_1702UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WA7_Yadav_1702UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DDF15A8D2B99736A0691088 /* Pods-WA7_Yadav_1702Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WA7_Yadav_1702Tests.release.xcconfig"; path = "Target Support Files/Pods-WA7_Yadav_1702Tests/Pods-WA7_Yadav_1702Tests.release.xcconfig"; sourceTree = "<group>"; };
+		53F822A6320595EE60884D5D /* Pods_WA7_Yadav_1702_WA7_Yadav_1702UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WA7_Yadav_1702_WA7_Yadav_1702UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FA6ABF08479239793C904C3 /* Pods-WA7_Yadav_1702Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WA7_Yadav_1702Tests.debug.xcconfig"; path = "Target Support Files/Pods-WA7_Yadav_1702Tests/Pods-WA7_Yadav_1702Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		88AE5E42AC33847E21E073A6 /* Pods-WA7_Yadav_1702.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WA7_Yadav_1702.release.xcconfig"; path = "Target Support Files/Pods-WA7_Yadav_1702/Pods-WA7_Yadav_1702.release.xcconfig"; sourceTree = "<group>"; };
+		8C92FA813963C47EDE2E3AE2 /* Pods-WA7_Yadav_1702.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WA7_Yadav_1702.debug.xcconfig"; path = "Target Support Files/Pods-WA7_Yadav_1702/Pods-WA7_Yadav_1702.debug.xcconfig"; sourceTree = "<group>"; };
+		94AF83C4A46FB3E5E34BFF55 /* Pods_WA7_Yadav_1702Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WA7_Yadav_1702Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		29D075412EB26AD400B88287 /* Exceptions for "WA7_Yadav_1702" folder in "WA7_Yadav_1702" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 29D075182EB26AD100B88287 /* WA7_Yadav_1702 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		29D0751B2EB26AD100B88287 /* WA7_Yadav_1702 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				29D075412EB26AD400B88287 /* Exceptions for "WA7_Yadav_1702" folder in "WA7_Yadav_1702" target */,
+			);
+			path = WA7_Yadav_1702;
+			sourceTree = "<group>";
+		};
+		29D075322EB26AD400B88287 /* WA7_Yadav_1702Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WA7_Yadav_1702Tests;
+			sourceTree = "<group>";
+		};
+		29D0753C2EB26AD400B88287 /* WA7_Yadav_1702UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WA7_Yadav_1702UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29D075162EB26AD100B88287 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC86C839EB978F1280D77CB4 /* Pods_WA7_Yadav_1702.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29D0752C2EB26AD400B88287 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AC845FE94446C7A3217A551 /* Pods_WA7_Yadav_1702Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29D075362EB26AD400B88287 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16D2988814D7732B6FC5CE59 /* Pods_WA7_Yadav_1702_WA7_Yadav_1702UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		057D3B07B9FECFEB9B9BE826 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C92FA813963C47EDE2E3AE2 /* Pods-WA7_Yadav_1702.debug.xcconfig */,
+				88AE5E42AC33847E21E073A6 /* Pods-WA7_Yadav_1702.release.xcconfig */,
+				18863921350E8A16AEE2520F /* Pods-WA7_Yadav_1702-WA7_Yadav_1702UITests.debug.xcconfig */,
+				0A198FB76E7A72994579AE61 /* Pods-WA7_Yadav_1702-WA7_Yadav_1702UITests.release.xcconfig */,
+				7FA6ABF08479239793C904C3 /* Pods-WA7_Yadav_1702Tests.debug.xcconfig */,
+				2DDF15A8D2B99736A0691088 /* Pods-WA7_Yadav_1702Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		29D075102EB26AD100B88287 = {
+			isa = PBXGroup;
+			children = (
+				29D0751B2EB26AD100B88287 /* WA7_Yadav_1702 */,
+				29D075322EB26AD400B88287 /* WA7_Yadav_1702Tests */,
+				29D0753C2EB26AD400B88287 /* WA7_Yadav_1702UITests */,
+				29D0751A2EB26AD100B88287 /* Products */,
+				057D3B07B9FECFEB9B9BE826 /* Pods */,
+				B0EE37303BC13907CFCA86A6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		29D0751A2EB26AD100B88287 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29D075192EB26AD100B88287 /* WA7_Yadav_1702.app */,
+				29D0752F2EB26AD400B88287 /* WA7_Yadav_1702Tests.xctest */,
+				29D075392EB26AD400B88287 /* WA7_Yadav_1702UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0EE37303BC13907CFCA86A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CAEE66AD77587EA4FD42F43 /* Pods_WA7_Yadav_1702.framework */,
+				53F822A6320595EE60884D5D /* Pods_WA7_Yadav_1702_WA7_Yadav_1702UITests.framework */,
+				94AF83C4A46FB3E5E34BFF55 /* Pods_WA7_Yadav_1702Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29D075182EB26AD100B88287 /* WA7_Yadav_1702 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29D075422EB26AD400B88287 /* Build configuration list for PBXNativeTarget "WA7_Yadav_1702" */;
+			buildPhases = (
+				00DF5A54B121B24A5D1A20FF /* [CP] Check Pods Manifest.lock */,
+				29D075152EB26AD100B88287 /* Sources */,
+				29D075162EB26AD100B88287 /* Frameworks */,
+				29D075172EB26AD100B88287 /* Resources */,
+				80A2E330EDB26EDC86C2CC56 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				29D0751B2EB26AD100B88287 /* WA7_Yadav_1702 */,
+			);
+			name = WA7_Yadav_1702;
+			productName = WA7_Yadav_1702;
+			productReference = 29D075192EB26AD100B88287 /* WA7_Yadav_1702.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29D0752E2EB26AD400B88287 /* WA7_Yadav_1702Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29D075472EB26AD400B88287 /* Build configuration list for PBXNativeTarget "WA7_Yadav_1702Tests" */;
+			buildPhases = (
+				BB4D117554C06DBCB1AA9A57 /* [CP] Check Pods Manifest.lock */,
+				29D0752B2EB26AD400B88287 /* Sources */,
+				29D0752C2EB26AD400B88287 /* Frameworks */,
+				29D0752D2EB26AD400B88287 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29D075312EB26AD400B88287 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				29D075322EB26AD400B88287 /* WA7_Yadav_1702Tests */,
+			);
+			name = WA7_Yadav_1702Tests;
+			productName = WA7_Yadav_1702Tests;
+			productReference = 29D0752F2EB26AD400B88287 /* WA7_Yadav_1702Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		29D075382EB26AD400B88287 /* WA7_Yadav_1702UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29D0754A2EB26AD400B88287 /* Build configuration list for PBXNativeTarget "WA7_Yadav_1702UITests" */;
+			buildPhases = (
+				BA6A35E1D745A4CA1D08CCC7 /* [CP] Check Pods Manifest.lock */,
+				29D075352EB26AD400B88287 /* Sources */,
+				29D075362EB26AD400B88287 /* Frameworks */,
+				29D075372EB26AD400B88287 /* Resources */,
+				E01E583E86749E16D225161D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29D0753B2EB26AD400B88287 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				29D0753C2EB26AD400B88287 /* WA7_Yadav_1702UITests */,
+			);
+			name = WA7_Yadav_1702UITests;
+			productName = WA7_Yadav_1702UITests;
+			productReference = 29D075392EB26AD400B88287 /* WA7_Yadav_1702UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29D075112EB26AD100B88287 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					29D075182EB26AD100B88287 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					29D0752E2EB26AD400B88287 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 29D075182EB26AD100B88287;
+					};
+					29D075382EB26AD400B88287 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 29D075182EB26AD100B88287;
+					};
+				};
+			};
+			buildConfigurationList = 29D075142EB26AD100B88287 /* Build configuration list for PBXProject "WA7_Yadav_1702" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29D075102EB26AD100B88287;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 29D0751A2EB26AD100B88287 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29D075182EB26AD100B88287 /* WA7_Yadav_1702 */,
+				29D0752E2EB26AD400B88287 /* WA7_Yadav_1702Tests */,
+				29D075382EB26AD400B88287 /* WA7_Yadav_1702UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29D075172EB26AD100B88287 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29D0752D2EB26AD400B88287 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29D075372EB26AD400B88287 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DF5A54B121B24A5D1A20FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WA7_Yadav_1702-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80A2E330EDB26EDC86C2CC56 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WA7_Yadav_1702/Pods-WA7_Yadav_1702-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WA7_Yadav_1702/Pods-WA7_Yadav_1702-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WA7_Yadav_1702/Pods-WA7_Yadav_1702-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA6A35E1D745A4CA1D08CCC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WA7_Yadav_1702-WA7_Yadav_1702UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB4D117554C06DBCB1AA9A57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WA7_Yadav_1702Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E01E583E86749E16D225161D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WA7_Yadav_1702-WA7_Yadav_1702UITests/Pods-WA7_Yadav_1702-WA7_Yadav_1702UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WA7_Yadav_1702-WA7_Yadav_1702UITests/Pods-WA7_Yadav_1702-WA7_Yadav_1702UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WA7_Yadav_1702-WA7_Yadav_1702UITests/Pods-WA7_Yadav_1702-WA7_Yadav_1702UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29D075152EB26AD100B88287 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29D0752B2EB26AD400B88287 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29D075352EB26AD400B88287 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29D075312EB26AD400B88287 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29D075182EB26AD100B88287 /* WA7_Yadav_1702 */;
+			targetProxy = 29D075302EB26AD400B88287 /* PBXContainerItemProxy */;
+		};
+		29D0753B2EB26AD400B88287 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29D075182EB26AD100B88287 /* WA7_Yadav_1702 */;
+			targetProxy = 29D0753A2EB26AD400B88287 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		29D075432EB26AD400B88287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C92FA813963C47EDE2E3AE2 /* Pods-WA7_Yadav_1702.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76BH5BLS3S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WA7_Yadav_1702/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.WA7-Yadav-1702";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29D075442EB26AD400B88287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88AE5E42AC33847E21E073A6 /* Pods-WA7_Yadav_1702.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76BH5BLS3S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WA7_Yadav_1702/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.WA7-Yadav-1702";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		29D075452EB26AD400B88287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 76BH5BLS3S;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		29D075462EB26AD400B88287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 76BH5BLS3S;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29D075482EB26AD400B88287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FA6ABF08479239793C904C3 /* Pods-WA7_Yadav_1702Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76BH5BLS3S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.WA7-Yadav-1702Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WA7_Yadav_1702.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WA7_Yadav_1702";
+			};
+			name = Debug;
+		};
+		29D075492EB26AD400B88287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DDF15A8D2B99736A0691088 /* Pods-WA7_Yadav_1702Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76BH5BLS3S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.WA7-Yadav-1702Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WA7_Yadav_1702.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WA7_Yadav_1702";
+			};
+			name = Release;
+		};
+		29D0754B2EB26AD400B88287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18863921350E8A16AEE2520F /* Pods-WA7_Yadav_1702-WA7_Yadav_1702UITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76BH5BLS3S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.WA7-Yadav-1702UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WA7_Yadav_1702;
+			};
+			name = Debug;
+		};
+		29D0754C2EB26AD400B88287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A198FB76E7A72994579AE61 /* Pods-WA7_Yadav_1702-WA7_Yadav_1702UITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76BH5BLS3S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.WA7-Yadav-1702UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WA7_Yadav_1702;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29D075142EB26AD100B88287 /* Build configuration list for PBXProject "WA7_Yadav_1702" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29D075452EB26AD400B88287 /* Debug */,
+				29D075462EB26AD400B88287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29D075422EB26AD400B88287 /* Build configuration list for PBXNativeTarget "WA7_Yadav_1702" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29D075432EB26AD400B88287 /* Debug */,
+				29D075442EB26AD400B88287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29D075472EB26AD400B88287 /* Build configuration list for PBXNativeTarget "WA7_Yadav_1702Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29D075482EB26AD400B88287 /* Debug */,
+				29D075492EB26AD400B88287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29D0754A2EB26AD400B88287 /* Build configuration list for PBXNativeTarget "WA7_Yadav_1702UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29D0754B2EB26AD400B88287 /* Debug */,
+				29D0754C2EB26AD400B88287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29D075112EB26AD100B88287 /* Project object */;
+}

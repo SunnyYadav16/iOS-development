@@ -21,6 +21,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         title = "Expense App"
         
+        firstScreen.tableViewExpense.separatorStyle = .none
+        
         //MARK: patching the table view delegate and datasource to controller...
         firstScreen.tableViewExpense.delegate = self
         firstScreen.tableViewExpense.dataSource = self
@@ -58,6 +60,11 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource{
         }
         if let uwType = expenses[indexPath.row].type{
             cell.labelType.text = "Type: \(uwType)"
+        }
+        
+        //MARK: setting the image of the receipt...
+        if let uwImage = expenses[indexPath.row].image{
+            cell.imageReceipt.image = uwImage
         }
         return cell
     }

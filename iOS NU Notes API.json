@@ -1,0 +1,270 @@
+{
+	"info": {
+		"_postman_id": "35f82abc-c35e-4043-8e7f-ef16aff459ce",
+		"name": "iOS NU Notes API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1195834"
+	},
+	"item": [
+		{
+			"name": "SignUp",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "tester",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "tester@test.dev",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "abc123",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://apis.sakibnm.work:3000/api/auth/register",
+					"protocol": "https",
+					"host": [
+						"apis",
+						"sakibnm",
+						"work"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"auth",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "email",
+							"value": "tester@test.dev",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "abc123",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://apis.sakibnm.work:3000/api/auth/login",
+					"protocol": "https",
+					"host": [
+						"apis",
+						"sakibnm",
+						"work"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Logout",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://apis.sakibnm.work:3000/api/auth/logout",
+					"protocol": "https",
+					"host": [
+						"apis",
+						"sakibnm",
+						"work"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"auth",
+						"logout"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "My Details",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-access-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NzNhMTJmZWY2YTU0Y2YwNmU5MGY4MCIsImlhdCI6MTY4NTI5OTU3MCwiZXhwIjoxNjg1Mzg1OTcwfQ.eE7qWu_4xUDbeudhHFxSmPxSw0qn32GtHpKhyl-fzT4",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "https://apis.sakibnm.work:3000/api/auth/me",
+					"protocol": "https",
+					"host": [
+						"apis",
+						"sakibnm",
+						"work"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"auth",
+						"me"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Notes Get All",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-access-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NzNhMTJmZWY2YTU0Y2YwNmU5MGY4MCIsImlhdCI6MTY4NTMwMTMyMSwiZXhwIjoxNjg1Mzg3NzIxfQ.nVQ61mcxfB4laJeBy_VSZLKiJs8RVbt3KJJopgbjU6k",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "https://apis.sakibnm.work:3000/api/note/getall",
+					"protocol": "https",
+					"host": [
+						"apis",
+						"sakibnm",
+						"work"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"note",
+						"getall"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Notes Add a Note",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-access-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NzNhMTJmZWY2YTU0Y2YwNmU5MGY4MCIsImlhdCI6MTY4NTI5OTU3MCwiZXhwIjoxNjg1Mzg1OTcwfQ.eE7qWu_4xUDbeudhHFxSmPxSw0qn32GtHpKhyl-fzT4",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "text",
+							"value": "I have a class on Tue",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://apis.sakibnm.work:3000/api/note/post",
+					"protocol": "https",
+					"host": [
+						"apis",
+						"sakibnm",
+						"work"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"note",
+						"post"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Notes Delete a Note",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-access-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NzNhMTJmZWY2YTU0Y2YwNmU5MGY4MCIsImlhdCI6MTY4NTI5OTU3MCwiZXhwIjoxNjg1Mzg1OTcwfQ.eE7qWu_4xUDbeudhHFxSmPxSw0qn32GtHpKhyl-fzT4",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "id",
+							"value": "640f58205acf1dbbbb74643c",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://apis.sakibnm.work:3000/api/note/delete",
+					"protocol": "https",
+					"host": [
+						"apis",
+						"sakibnm",
+						"work"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"note",
+						"delete"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "baseURL",
+			"value": "https://apis.sakibnm.space:3000/"
+		}
+	]
+}
